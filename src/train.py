@@ -2,7 +2,7 @@
 import config
 import os
 
-import joblib
+import pickle
 import pandas as pd
 from sklearn import metrics
 from sklearn.linear_model import LogisticRegression
@@ -52,7 +52,7 @@ if __name__ == '__main__':
         print(f"Accuracy : {preds}")
 
         # save the model
-        joblib.dump(pipe_lr, os.path.join(config.MODEL_OUTPUT, f"model_{fold_}.pkl"))
+        pickle.dump(pipe_lr, open(os.path.join(config.MODEL_OUTPUT, f"model_{fold_}.pkl"), "wb"))
 
 
 
