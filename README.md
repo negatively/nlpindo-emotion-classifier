@@ -2,7 +2,7 @@
 Emotion classification system for text sentence, and deployed using Streamlit.
 
 ## Data
-The dataset, intents.json, contain 33k+ raw sentence, along with their emotion label (neutral, joy, sadness, fear, surprise, anger, shame, and disgust). 
+The dataset, emotion_dataset.csv, contain 33k+ raw sentence, along with their emotion label (neutral, joy, sadness, fear, surprise, anger, shame, and disgust). 
 
 The dataset label column have imbalanced distribution.
 
