@@ -8,6 +8,11 @@ The dataset label column have imbalanced distribution.
 
 ![emotion](https://user-images.githubusercontent.com/61934759/185315396-35141797-8fd3-454c-b9b1-8c10fde2360a.PNG)
 
+## Dashboard View
+For streamlit display, you can see the image below.
+
+![emotion](https://user-images.githubusercontent.com/61934759/185325846-fe425797-3110-4de0-9228-e431e396aad9.PNG)
+
 ## Catatan Instalasi
 This repo has requirement
 - Python versi 3.8.8
